@@ -140,8 +140,6 @@ body {
 }
 
 .phone-number-block-top {
-    /*display: inline-block;*/
-    /*display: block;*/
     background: url("../images/yellow_phone.png") no-repeat;
     padding: 4px 0px 4px 50px;
     margin: 4px 0px 0px 0px;
@@ -173,7 +171,7 @@ body {
 
 .banner-wrapper {
     background: url("../images/banner-wrapper.png") no-repeat;
-    border: #FFF 3px solid;
+    border: #FFF 2px solid;
     border-radius: 12px;
     padding: 10px 3px 1px 3px;
 }
@@ -551,14 +549,16 @@ input[type="password"] {
     width: 942px;
 }
 
-.s-footer ul {
+/*.s-footer ul {*/
+.list-in-center ul {
     text-align: center;
     margin-top: 7px;
     margin-bottom: 0px;
     padding-left: 0px;
 }
 
-.s-footer li {
+/*.s-footer li {*/
+.list-in-center li {
     display: inline;
     margin: 0 15px;
 }
