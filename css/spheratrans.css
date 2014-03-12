@@ -539,20 +539,21 @@ input[type="password"] {
 .s-footer {
     margin: 20px 0 15px 0;
     padding-bottom: 10px;
-    background: url("../images/footer_background_colomn_diff.png") 0 0 repeat-x, url("../images/footer_background_colomn_diff_extended.png") 0px 117px;
+    background: #c0c0c0;
+    background: url("../images/footer_background_colomn_diff_extended.png");
     border-top: 3px solid #fff;
     border-bottom: 3px solid #fff;
     width: 100%;
-    height: 100px;
+    height: 120px;
 }
 
-.list-in-center {
+.footer-center {
     margin: 0px auto;
     width: 942px;
 }
 
 /*.s-footer ul {*/
-.list-in-center ul {
+.s-footer ul {
     text-align: center;
     margin-top: 7px;
     margin-bottom: 0px;
@@ -560,9 +561,15 @@ input[type="password"] {
 }
 
 /*.s-footer li {*/
-.list-in-center li {
+.s-footer li {
     display: inline;
     margin: 0 15px;
+}
+
+.footer-menu {
+    background: url("../images/footer_bg_menu.png");
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .copyright {
