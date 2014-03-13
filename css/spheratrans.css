@@ -4,6 +4,8 @@ html {
 
 body {
     background: url("../images/bg_top.png") 50% 0 repeat-x, url("../images/top_gradient.png") 0 212px repeat-x;
+    /**background: url("../images/bg_top.png") 50% 0 repeat-x;*/
+    background: url("../images/bg_top.png") 50% 0 repeat-x\9;
 }
 
 .float-left {
@@ -74,6 +76,10 @@ body {
     border-radius: 7px;
     font-weight: bold;
     padding: 3px 15px;
+}
+
+.submit-button:hover {
+    border: 3px solid #feb312;
 }
 
 .custom-text-decoration-color {
@@ -307,20 +313,21 @@ body {
 }
 
 .s-service-container > p > a,
-.s-service-container > h4 > a {
+.characteristics a {
     text-decoration: none;
     border-bottom: 1px dotted #d58512;
 }
 
 .s-service-container > p > a:link,
 .s-service-container > p > a:visited,
-.s-service-container > h4 > a:link,
-.s-service-container > h4 > a:visited,
-.s-service-container > h4 > a:hover {
+.characteristics a:link,
+.characteristics a:visited,
+.characteristics a:hover {
     color: #d58512;
 }
 
-.s-service-container > p > a:hover {
+.s-service-container > p > a:hover,
+.characteristics a:hover {
     color: #d45a01;
 }
 
